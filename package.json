@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "Ardiant Utomo",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "protocol",
+    "backend"
+  ],
   "devDependencies": {
     "typescript": "^4.8.4"
   }
