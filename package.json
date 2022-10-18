@@ -1,0 +1,10 @@
+{
+  "name": "AwsKMSDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ardiant Utomo",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
