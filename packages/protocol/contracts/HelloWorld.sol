@@ -1,12 +1,15 @@
-contract HelloWorld {
-    public string message;
+// SPDX-License-Identifier: SEE LICENSE IN LICENSE
+pragma solidity ^0.8.17;
 
-    constructor(string initialMessage) {
-        message = initialMessage
+contract HelloWorld {
+    string public message;
+
+    constructor(string memory initialMessage) {
+        message = initialMessage;
     }
 
-    function setString(string newMessage){
-        message = newMessage
+    function setString(string memory newMessage) public {
+        message = newMessage;
     }
 
 }
