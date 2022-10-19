@@ -1,6 +1,8 @@
 {
   "name": "hardhat-project",
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "@rumblefishdev/hardhat-kms-signer": "^1.1.0",
     "hardhat": "^2.12.0"
   }
 }
