@@ -8,7 +8,7 @@ const config: HardhatUserConfig = {
   networks: {
     goerli: {
       url: `https://eth-goerli.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`,
-      kmsKeyId: `${process.env.KMS_KEY_ID}`,
+      kmsKeyId: `${process.env.AWS_KMS_KEY_ID}`,
     },
   },
 };
