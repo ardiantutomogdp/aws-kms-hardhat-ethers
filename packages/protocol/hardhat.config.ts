@@ -1,4 +1,3 @@
-import "@nomicfoundation/hardhat-toolbox";
 import "@nomiclabs/hardhat-ethers";
 import "@rumblefishdev/hardhat-kms-signer";
 import { HardhatUserConfig } from "hardhat/config";
