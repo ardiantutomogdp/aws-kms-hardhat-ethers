@@ -1,6 +1,7 @@
 import "@nomiclabs/hardhat-ethers";
 import "@rumblefishdev/hardhat-kms-signer";
 import { HardhatUserConfig } from "hardhat/config";
+require("dotenv").config();
 
 const config: HardhatUserConfig = {
   solidity: "0.8.17",
