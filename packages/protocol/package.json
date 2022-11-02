@@ -14,5 +14,8 @@
     "hardhat": "2.8.3",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.1.0"
+  },
+  "dependencies": {
+    "@rumblefishdev/eth-signer-kms": "^2.2.0"
   }
 }

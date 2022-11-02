@@ -17,6 +17,7 @@
     "tsconfig-paths": "^4.1.0"
   },
   "dependencies": {
+    "@rumblefishdev/eth-signer-kms": "^2.2.0",
     "ethers": "^5.7.1"
   }
 }
